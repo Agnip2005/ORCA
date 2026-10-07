@@ -1,0 +1,113 @@
+{
+  "_disclaimer": "PLACEHOLDER polygon: a buffered union of named-region bounding boxes, NOT a real coastline or EEZ trace. Guaranteed self-consistent with app/fetchers/ocean_fetcher.py REGION_BOUNDS for demo purposes only. Run scripts/fetch_real_eez.py for the real Marine Regions (VLIZ) EEZ polygon before using this for any real safety claim.",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "India EEZ (placeholder - buffered region boxes)"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                72.5,
+                14.5
+              ],
+              [
+                76.0,
+                14.5
+              ],
+              [
+                76.0,
+                15.5
+              ],
+              [
+                78.0,
+                15.5
+              ],
+              [
+                78.0,
+                21.0
+              ],
+              [
+                85.5,
+                21.0
+              ],
+              [
+                85.5,
+                24.5
+              ],
+              [
+                91.0,
+                24.5
+              ],
+              [
+                91.0,
+                19.0
+              ],
+              [
+                86.5,
+                19.0
+              ],
+              [
+                86.5,
+                11.5
+              ],
+              [
+                82.5,
+                11.5
+              ],
+              [
+                82.5,
+                6.0
+              ],
+              [
+                79.5,
+                6.0
+              ],
+              [
+                76.0,
+                6.0
+              ],
+              [
+                72.5,
+                6.0
+              ],
+              [
+                72.5,
+                14.5
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                74.5,
+                25.5
+              ],
+              [
+                74.5,
+                18.0
+              ],
+              [
+                66.0,
+                18.0
+              ],
+              [
+                66.0,
+                25.5
+              ],
+              [
+                74.5,
+                25.5
+              ]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

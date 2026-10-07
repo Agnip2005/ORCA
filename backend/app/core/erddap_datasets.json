@@ -1,0 +1,16 @@
+{
+  "_comment": "Candidate open ERDDAP datasets (NOAA CoastWatch), tried in order until one returns enough valid data. Regenerate/verify with: python scripts/discover_erddap_datasets.py",
+  "sst": {
+    "candidates": [
+      {"dataset_id": "jplMURSST41", "variables": ["analysed_sst"], "note": "NASA JPL MUR L4 global SST, 0.01 deg, daily"},
+      {"dataset_id": "noaacrwsstDaily", "variables": ["analysed_sst", "sea_surface_temperature"], "note": "NOAA Coral Reef Watch CoralTemp SST, 0.05 deg, daily"}
+    ]
+  },
+  "chlorophyll": {
+    "candidates": [
+      {"dataset_id": "noaacwNPPVIIRSchlaDaily", "variables": ["chlor_a"], "note": "VIIRS SNPP chlorophyll-a, daily"},
+      {"dataset_id": "erdMH1chla8day", "variables": ["chlorophyll"], "note": "MODIS Aqua chlorophyll-a, 8-day composite (fewer cloud gaps)"},
+      {"dataset_id": "erdMH1chlamday", "variables": ["chlorophyll"], "note": "MODIS Aqua chlorophyll-a, monthly composite (last resort)"}
+    ]
+  }
+}
